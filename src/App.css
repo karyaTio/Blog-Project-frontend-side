@@ -1,32 +1,120 @@
-.App {
-  text-align: center;
+/*
+ * Base style
+ * regular html tag
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar-brand {
+  text-align: center;
+  padding: 14px 16px;
+  display: block;
+  background-color: red;
+}
+
+.navbar-navigation ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-navigation li {
+}
+
+.navbar-navigation li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-navigation li a:hover {
+  background-color: #111;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-navigation .active {
+  background-color: #4caf50;
+}
+
+.article {
+  background-color: aliceblue;
+  padding: 10px 8px;
+}
+
+.article-header {
+  border-bottom: 1px solid red;
+  margin-bottom: 2rem;
+}
+
+.article-title {
+}
+
+.article-date {
+  font-size: 0.8rem;
+  margin: 3px 0;
+}
+
+.card {
+  width: 100%;
+  height: 12rem;
+  max-height: 12rem;
+  background-color: aqua;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 25% auto;
+  padding: 10px 5px;
+  margin: 0px 0px 10px 0px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12rem;
+  max-height: 12rem;
+}
+
+.card-body {
+  height: 12rem;
+  max-height: 12rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin: 7px 0 3px 0;
+}
+
+.card-date {
+  font-size: 0.8rem;
+  margin: 3px 0;
+}
+
+.card-desc {
+  text-align: justify;
+}
+
+.card-read {
+  background-color: azure;
+  float: right;
+  padding: 5px 3px;
 }
