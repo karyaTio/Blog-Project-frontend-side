@@ -23,6 +23,7 @@ body {
   position: sticky;
   top: 0;
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .navbar-brand {

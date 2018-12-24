@@ -1,5 +1,7 @@
 # My Portfolio site
 
+project goal : to learn reactjs best practices
+
 ## References
 
     - http://bradfrost.com/blog/post/atomic-web-design/
@@ -10,3 +12,11 @@
 
     - Understanding of ReactJS
     - Creating reusable components
+
+## Progress
+
+### Monday 24 December 2018
+
+    - Implement basic routing (react-router)
+    - Implement Atomic desing project structure
+    - Understanding yarn
